@@ -150,6 +150,7 @@ public class VirtualMachine {
                                     
             case OPCODE.NL  :           //e.g C=|NL|-|-|-|
                                     System.out.println();   //Salto de línea
+                                     sInterfaz+="\n";   
                                     break;                  
            
             case OPCODE.GOTO :        //Traduccion del |GOTO| 2 | - | - |    //Goto E2
